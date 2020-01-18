@@ -1,47 +1,87 @@
 body {
     width: 100%;
-    height: 600px;
+    height: 700px;
+    padding: 0px;
+    margin: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(83, 241, 247);
+    background-color: rgb(192, 195, 204);
 }
 
 @font-face {
-    font-family: "TitilliumWeb-Regular";
-    src: url(assets/fonts/TitilliumWeb-Regular.ttf);
+    font-family: "Comfortaa-Regular";
+    src: url(assets/fonts/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Comfortaa-Bold";
+    src: url(assets/fonts/Comfortaa-Bold.ttf);
 }
 
 .weather {
-    font-family: "TitilliumWeb-Regular";
-    width: 800px;
-    height: 400px;
+    font-family: "Comfortaa-Regular";
+    width: 1000px;
+    height: 500px;
     display: flex;
-    background-color: rgb(93, 185, 247);
+    background-color: rgba(255, 255, 255);
     flex-direction: column;
     align-items: center;
+    border-radius: 50px;
 }
 
 .weather__title {
-    height: 50px;
-    padding-top: 50px;
+    height: 75px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    
 }
 
 .title__text {
-    font-family: "TitilliumWeb-Regular";
+    padding-right: 10px;
+    font-family: "Comfortaa-Bold";
+    font-size: 30px;
+}
+
+.title__date {
+    padding-left: 10px;
 }
 
 .weather__cards {
     width: 100%;
-    height: 300px;
+    height: 425px;
     display: flex;
 }
 
 .card {
-    height: 300px;
-    width: 200px;
-    background-color: rgb(72, 36, 202);
+    height: 425px;
+    width: 250px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__date {
+    font-size: 26px;
+    font-family: "Comfortaa-Bold";
+}
+
+.card__day-of-the-week {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.card__weather-icon {
+    margin-bottom: 20px;
+}
+
+.card__temperature-day {
+    font-size: 24px;
+    font-family: "Comfortaa-Bold";
+}
+
+.card__temperature-night {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
