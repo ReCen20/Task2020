@@ -194,13 +194,13 @@ function createCard(day) {
                     cardWeatherIconSrc = "assets/img/cloud-with-snowflakes-weather-symbol_icon-icons.com_54692.png";
                     break;
                 default:
-                    cardWeatherIconSrc = "assets/img/back_arrow_5821.png";
+                    cardWeatherIconSrc = "assets/img/1487086345-cross_81577.png";
                     break;
             }
             break;
         case "Ясно":
             if (day.rain === "Без осадков") cardWeatherIconSrc = "assets/img/sunny-day-weather-stroke-symbol_icon-icons.com_54642.png";
-            else cardWeatherIconSrc = "assets/img/back_arrow_5821.png";
+            else cardWeatherIconSrc = "assets/img/1487086345-cross_81577.png";
             break;
         case "Гроза":
             switch (day.rain) {
@@ -212,13 +212,12 @@ function createCard(day) {
                     cardWeatherIconSrc = "assets/img/storm_weather_4850.png";
                     break;
                 default:
-                    cardWeatherIconSrc = "assets/img/back_arrow_5821.png";
+                    cardWeatherIconSrc = "assets/img/1487086345-cross_81577.png";
                     break;
             }
             break;
         default:
-            console.log("Blet");
-            cardWeatherIconSrc = "assets/img/back_arrow_5821.png";
+            cardWeatherIconSrc = "assets/img/1487086345-cross_81577.png";
             break;
     }
     
