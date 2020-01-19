@@ -45,6 +45,7 @@ body {
 
 .title__date {
     padding-left: 10px;
+    font-size: 22px;
 }
 
 .weather__cards {
@@ -69,6 +70,12 @@ body {
 .card__day-of-the-week {
     margin-top: 20px;
     font-size: 22px;
+    font-family: "Comfortaa-Bold";
+    color: gray;
+}
+
+.today {
+    color: black;
 }
 
 .card__weather-icon {
@@ -84,4 +91,13 @@ body {
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 30px;
+}
+
+.empty-arrow {
+    width: 128px;
+    height: 128px;
+}
+
+.hidden {
+    display: none;
 }
